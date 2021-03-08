@@ -30,7 +30,7 @@ def sl_predict(country_prediction, topic_prediction, date, local=False):
     else:
         pred = pd.read_csv(filepath_pred)
 
-    st.dataframe(pred)
+    # st.dataframe(pred)
 
     class_1 = pred['polarity'].mean()
     class_2 = 1 - class_1
