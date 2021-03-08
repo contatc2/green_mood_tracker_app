@@ -8,6 +8,14 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+nltk
+
+# plotting
+plotly
+geojson_rewind
+altair
+wordcloud
+matplotlib
 
 # tests/linter
 black
@@ -17,13 +25,6 @@ pytest
 yapf
 
 # API
-gcsfs
-google-cloud-storage
-mlflow
-s3fs
+# gcsfs
+# google-cloud-storage
 
-# utilities
-six>=1.14
-joblib
-memoized-property
-termcolor

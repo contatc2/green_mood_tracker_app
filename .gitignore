@@ -1,7 +1,9 @@
-*.egg-info
+*.pyc
+*.swp
+build/
+dist/
 .coverage
 .ipynb_checkpoints
+*.iml
 .DS_Store
-raw_data/
-**/__pycache__/
-.env
+
